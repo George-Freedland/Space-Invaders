@@ -6,7 +6,7 @@ class Enemy:
     def __init__(self):
         self.x = random.randint(0, 770)
         self.y = random.randint(50, 150)
-        self.speedX = 1
+        self.speedX = 2
         self.img = pygame.image.load('images/enemy.png')
     
     def fireLaser(self, screen):
